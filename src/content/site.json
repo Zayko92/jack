@@ -1,0 +1,45 @@
+{
+  "biography": [
+    "Gioacchino Orlando è autore, editor e reporter freelance. Ha studiato Storia, Editoria e Giornalismo.",
+    "In passato ha collaborato con case editrici come Il Galeone Editore e Derive Approdi. Ha organizzato eventi e rassegne culturali a Roma.",
+    "Il suo approccio cerca di tenere sempre insieme dimensione narrativa, geografia critica, storia sociale e studi postcoloniali. Da sempre vicino ai movimenti sociali, i suoi lavori esplorano le fratture del presente – conflitti, crisi ambientali, movimenti politici.",
+    "Redattore di Carmilla Online, suoi articoli sono visibili su testate come Il Manifesto, Il Tascabile, Nuova Ecologia, La Via Libera e altri.",
+    "Ha scritto reportage dal confine turco-siriano, dalla Bosnia, dal Kosovo e dalla Cina. Tra i suoi libri, No Justice No Peace (Red Star Press, 2019) e L’epidemia delle emergenze (Il Galeone, 2021). Vive e lavora a Roma."
+  ],
+  "books": [
+    {
+      "title": "no justice no peace",
+      "subtitle": "Storia militante delle lotte per l'autodeterminazione afroamericana",
+      "publisher": "Red Star Press, 2019",
+      "prize": "Vincitore del Premio Francesco Lorusso 2019",
+      "cover": "/images/no-justice-no-peace.jpg",
+      "link": "https://www.redstarpress.it/prodotto/no-justice-no-peace/",
+      "linkLabel": "redstarpress.it",
+      "description": "Dal 2008 in poi, l'acutizzarsi della povertà e della segregazione razziale negli USA ha fatto riesplodere tensioni a lungo compresse tra le mura dei ghetti. Prima fra tutte quella afroamericana che, in questo modo, irrompe violentemente nel discorso pubblico. Attorno alle proteste contro la brutalità poliziesca si coagula tutto il vissuto storico di un popolo in lotta da oltre quattro secoli. Tornano a galla storie radicali e irriducibili, profondamente sedimentate nella coscienza collettiva nera e ben più scomode delle sbiadite iconografie, ormai pacificate, costruite sulle citazioni del pastore King o dei guanti neri di Smith e Carlos. Riemerge, dalla damnatio memoriae a cui è stata relegata, una storia fatta di resistenze, evasioni, sommosse, arte e contropotere. Dalle rivolte degli schiavi nel Sud alle lotte anticoloniali africane, dai diritti civili al black power, dall'hip hop alle gang, dal Black Panther Party al Black Lives Matter, i dannati delle metropoli americane non hanno mai cessato la loro lotta per l'autodeterminazione."
+    },
+    {
+      "title": "L'epidemia delle Emergenze",
+      "subtitle": "con Sandro Moiso",
+      "publisher": "Il Galeone, 2021",
+      "prize": null,
+      "cover": "/images/epidemia-delle-emergenze.jpg",
+      "link": "https://www.ibs.it/epidemia-delle-emergenze-contagio-immaginario-libro-vari/e/9788899892081",
+      "linkLabel": "ibs.it",
+      "description": "Alcuni degli articoli che compongono il volume sono stati tradotti all'estero da riviste come LundiMatin. Qual è la portata reale della crisi del Covid? Che conseguenze avrà sulla vita politica e sociale di Italia ed Europa? Possiamo credere che, tutti uniti attorno alla nazione, sapremo uscirne più forti di prima? Questo libro vuole offrire una prima risposta agli interrogativi aperti dall'epidemia ed essere uno strumento di battaglia politica per non soccombere al futuro che questo modo di produzione ci sta preparando. Il volume raccoglie interventi apparsi sulla webzine «Carmilla», con testi di: Maurice Chevalier, Fabio Ciabatti, Giovanni Iozzoli, Sandro Moiso, Jack Orlando, Gioacchino Toni."
+    }
+  ],
+  "articles": [
+    {
+      "label": "Ultimi lavori",
+      "url": "https://www.clippings.me/giorlando",
+      "text": "Qui puoi trovare alcuni dei miei ultimi lavori:",
+      "display": "clippings.me/giorlando"
+    },
+    {
+      "label": "Archivio articoli",
+      "url": "https://linktr.ee/jack_orlando",
+      "text": "Qui invece trovi un elenco con i link alla maggior parte dei miei articoli:",
+      "display": "linktr.ee/jack_orlando"
+    }
+  ]
+}

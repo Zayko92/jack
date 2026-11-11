@@ -19,7 +19,7 @@ export function Header() {
         <nav aria-label="Navigazione principale" className="main-navigation mono">
           {links.map(({ label, href }) => (
             <Link key={href} href={href} aria-current={pathname === href ? "page" : undefined}>
-              {label}
+              <span className="link-label">{label}</span>
             </Link>
           ))}
         </nav>

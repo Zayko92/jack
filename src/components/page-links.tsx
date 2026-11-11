@@ -13,7 +13,7 @@ export function PageLinks({ current }: { current: string }) {
       <div className="container page-links-inner">
         {pages.filter(({ href }) => href !== current).map(({ href, title }) => (
           <Link key={href} href={href} className="page-link">
-            <span>{title}</span><ArrowRight />
+            <span className="link-label">{title}</span><ArrowRight />
           </Link>
         ))}
       </div>

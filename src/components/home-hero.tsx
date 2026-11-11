@@ -42,7 +42,7 @@ export function HomeHero() {
           <h1 id="home-title">gioacchino<br />orlando</h1>
           <div className="hero-actions">
             <Link href="/libri" className="button mono">Libri<ArrowRight /></Link>
-            <Link href="/articoli" className="button mono">Articoli<ArrowRight /></Link>
+            <Link href="/articoli" className="button button-secondary mono">Articoli<ArrowRight /></Link>
           </div>
         </div>
       </div>

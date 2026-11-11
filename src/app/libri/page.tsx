@@ -23,13 +23,13 @@ export default function BooksPage() {
                   <Image src={book.cover} alt={`Copertina di ${book.title}`} fill priority={index === 0} sizes="(max-width: 767px) min(340px, calc(100vw - 48px)), 340px" />
                 </a>
               </div>
-              <div className="book-copy">
+              <div className="book-copy reading-panel">
                 <p className="book-meta mono">{String(index + 1).padStart(2, "0")} · {book.publisher}</p>
                 <h2 id={`book-${index}`}>{book.title}</h2>
                 <p className="book-subtitle">{book.subtitle}</p>
                 {book.prize && <p className="book-prize mono"><Award />{book.prize}</p>}
                 <p className="book-description">{book.description}</p>
-                <a href={book.link} target="_blank" rel="noopener noreferrer" className="publisher-link mono">{book.linkLabel}<ArrowUpRight /></a>
+                <a href={book.link} target="_blank" rel="noopener noreferrer" className="publisher-link mono"><span className="link-label">{book.linkLabel}</span><ArrowUpRight /></a>
               </div>
             </article>
           ))}

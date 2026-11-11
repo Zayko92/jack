@@ -16,14 +16,14 @@ export default function ArticlesPage() {
       <section className="articles-section" aria-label="Articoli e reportage">
         <div className="container editorial-grid">
           <div><p className="section-label articles-label mono">testate nazionali · tradotti all’estero</p></div>
-          <div className="editorial-content">
+          <div className="editorial-content reading-panel">
             <p className="articles-intro">Miei reportage, analisi, recensioni e approfondimenti sono pubblicati su testate nazionali, alcuni tradotti all&apos;estero.</p>
             <div className="article-resources">
               {content.articles.map((article, index) => (
                 <div className="article-resource" key={article.url}>
                   <h2 className="resource-label mono">{String(index + 1).padStart(2, "0")} · {article.label}</h2>
                   <p>{article.text}</p>
-                  <a href={article.url} target="_blank" rel="noopener noreferrer" className="resource-link"><span>{article.display}</span><ArrowUpRight /></a>
+                  <a href={article.url} target="_blank" rel="noopener noreferrer" className="resource-link"><span className="link-label">{article.display}</span><ArrowUpRight /></a>
                 </div>
               ))}
             </div>
